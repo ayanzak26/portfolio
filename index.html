@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!------------------------header----------------------------->
+
+     <input type="checkbox"  id="check-box">
+    
+    <label for="check-box" class="icon-btn"><i class="fa fa-bars" id="menu-icon"></i></label>
+    
+ <header class="head">
+    <a href="#" class="logo"><span>Ayan</span>Zakir</a>
+    
+    <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#About">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+    
+ </header>
+ <!----------------------------home------------------------------>
+ <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi</h3>
+        <h1>I'm <span>Ayan  Zakir</span></h1>
+        <h3 class="text-amination">I'm  a <span></span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ea earum dolorum voluptatum odio maiores dicta facere laborum ducimus aut expedita sit aliquid tenetur ipsum, beatae cumque, recusandae delectus. Ratione.</p>
+        <div class="btn-box">
+            <button class="btn-1" onclick="downloadPDF()">Download CV</button>
+            <button class="btn-2" id="contact-form">Hire Me</button>
+        </div>
+       
+    </div>
+     <div class="img-box">
+            <img src="picture/profile.jpg" alt="">
+        </div>
+ </section>
+ <!-----------------------------------about-------------------------->
+ <section class="About" id="About">
+    <div class="about-img">
+        <img src="picture/com.webp" alt="">
+    </div>
+    <div class="about-container">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-amination"><span></span></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, neque assumenda atque doloribus commodi distinctio totam beatae quod maxime? Illo laudantium iure aliquid, quidem aperiam eaque, commodi corporis id sint expedita autem esse accusamus recusandae ut doloremque quo, debitis alias odit tempore et! Tempora quam sed eos nam culpa dolorum.</p>
+         <button class="btn-2">Read more</button>
+    </div>
+ </section>
+ <!-----------------------------------services--------------------------------->
+ <section class="services" id="services">
+    <h2 class="heading">services</h2>
+
+    <div class="services-contaniers">
+
+
+        <div class="contanier-box">
+
+            <h3>Ui & Ux design</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, nihil eligendi fuga dolorum aut blanditiis voluptatibus temporibus? </p>
+             <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="contanier-box">
+
+             <h3>front-end Dev</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, nihil eligendi fuga dolorum aut blanditiis voluptatibus temporibus? </p>
+            <a href="#" class="btn">Read More</a>
+         </div>
+        <div class="contanier-box">
+
+              <h3>back-end Dev</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, nihil eligendi fuga dolorum aut blanditiis voluptatibus temporibus?</p>
+              <a href="#" class="btn">Read More</a>
+          </div>
+    </div>
+ </section>
+
+ <!-----------------------------------skills----------------------------------------->
+
+ <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+
+    <div class="skill-bars">
+
+        <div class="bar">
+            <div class="info"><span>Html</span></div>
+            <div class="progress-line html"><span></span></div>
+        </div>
+
+    
+        <div class="bar">
+            <div class="info"><span>css</span></div>
+            <div class="progress-line Css"><span></span></div>
+        </div>
+
+     
+        <div class="bar">
+            <div class="info"><span>Java Script</span></div>
+            <div class="progress-line JavaScript"><span></span></div>
+        </div>
+
+     
+        <div class="bar">
+            <div class="info"><span>React</span></div>
+            <div class="progress-line React"><span></span></div>
+        </div>
+
+    </div>
+
+ </section>
+ <!---------------------------Contact------------------------------------>
+
+ <section class="Contact" id="Contact">
+
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="email" placeholder="E-mail">
+
+        </div>
+        <div class="input-box">
+            <input type="number" id="Phone" placeholder="Phone Number">
+            <input type="text" id="Subject">
+
+        </div>
+        <textarea name="" id="sms" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" onclick="sendTowhatsapp()">
+    </form>
+
+ </section>
+ <!-----------------------------footer---------------------------------------------->
+ <footer class="footer">
+     <div class="social-icon">
+            <a href="#"><i class='bxl  bx-linkedin'  ></i> </a>
+            <a href="#"><i class='bxl  bx-facebook-circle'  ></i> </a>
+            <a href="#"><i class='bxl  bx-instagram'  ></i> </a>
+            <a href="#"><i class='bxl  bx-twitter'  ></i> </a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright"><span>copyright:</span>@AyanZakir</p>
+ </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
