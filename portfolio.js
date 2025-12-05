@@ -1,5 +1,5 @@
 function sendTowhatsapp(){
-    let num = "+7667350125";
+    let num = "+9942172258";
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let Phone = document.getElementById('Phone').value;
@@ -22,4 +22,5 @@ function downloadPDF(){
   link.href="picture/RESUME.pdf";
   link.download = "RESUME.pdf";
   link.click();
+
 }
