@@ -230,6 +230,10 @@ html{
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
+}
+.btn-1 a{
+    color: black;
 }
 .btn-1:hover{
     background-color:white;
@@ -628,4 +632,5 @@ html{
     width: 100vw;
     margin-right: 0;
 }
+
 }
